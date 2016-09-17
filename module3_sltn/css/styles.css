@@ -1,0 +1,39 @@
+nav.navbar {
+	background: #bebebe;
+}
+
+#top {
+	color: #333;
+	font-size: 1.8em;
+}
+#nav-list {
+	background: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.menu-item:nth-child(odd) {
+	border: 1px solid black;
+}
+.menu-item:nth-child(even) {
+	border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+button#menu.navbar-toggle.collapsed {
+	border-color: #111;
+}
+button#menu {
+	border-color: #ffffff;
+}
+button#menu.navbar-toggle.collapsed span.icon-bar {
+	background: #111;
+}
+button#menu span.icon-bar {
+	background: #ffffff;
+}
+#page-header {
+	border-bottom: 0px solid #eeeeee;
+}
+.inner-box {
+	background: #bebebe;
+	padding: 0px 10px;
+}
